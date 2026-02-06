@@ -2,11 +2,9 @@ class LightPanelEditor extends HTMLElement {
   setHass(hass) {
     this.hass = hass;
   }
-
   setConfig(config) {
     this.config = config;
   }
-
   configChanged(newConfig) {
     const event = new CustomEvent('config-changed', {
       detail: { config: newConfig },
@@ -14,14 +12,10 @@ class LightPanelEditor extends HTMLElement {
     });
     this.dispatchEvent(event);
   }
-
   connectedCallback() {
     this._renderEditor();
   }
-
   _renderEditor() {
-    // This is a placeholder for the editor UI
-    // In a full implementation, this would use ha-form or similar
     this.innerHTML = `
       <div style="padding: 16px;">
         <p>Light Panel Card Editor</p>
@@ -37,7 +31,6 @@ class LightPanelEditor extends HTMLElement {
         </p>
       </div>
     `;
-
     const select = this.querySelector('#config_method');
     if (select) {
       select.value = this.config?.config_method || 'area';
@@ -48,5 +41,4 @@ class LightPanelEditor extends HTMLElement {
     }
   }
 }
-
 customElements.define('light-panel-editor', LightPanelEditor);

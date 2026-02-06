@@ -1,5 +1,7 @@
 {
   "name": "Light Panel Card",
+  "content_in_root": true,
   "render_readme": true,
+  "filename": "light-panel.js",
   "homeassistant": "2025.1.0"
 }
