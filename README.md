@@ -18,7 +18,7 @@ A comprehensive light control interface for Home Assistant dashboards supporting
 2. Click the **⋮** (menu) in the top right
 3. Select **Custom repositories**
 4. Paste: `https://github.com/mcinnes01/light-panel-card`
-5. Select Category: **Frontend**
+5. Select Category: **Dashboard**
 6. Click **Create**
 7. Find "Light Panel Card" in HACS and click **Install**
 8. Restart Home Assistant

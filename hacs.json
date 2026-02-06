@@ -4,5 +4,6 @@
   "issues": "https://github.com/mcinnes01/light-panel-card/issues",
   "homeassistant": "2025.1.0",
   "codeowners": ["@mcinnes01"],
-  "render_readme": true
+  "render_readme": true,
+  "category": "dashboard"
 }
