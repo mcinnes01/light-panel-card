@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "name": "Light Panel Card",
+  "version": "1.0.0",
+  "description": "Parameterized light control panel with flexible entity selection",
+  "author": "mcinnes01",
+  "github_repo": "mcinnes01/lovelace-cards",
+  "github_release_url_template": "https://github.com/mcinnes01/lovelace-cards/releases/download/{release}/light-panel-{release}.js",
+  "documentation": "https://github.com/mcinnes01/lovelace-cards/blob/main/cards/light-panel/README.md"
+}
